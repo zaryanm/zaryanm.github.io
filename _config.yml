@@ -22,7 +22,6 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:masood.zaryan@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/zaryanm"}
-  - {title: Linkedin, icon: LinkedIN, url: "https://www.linkedin.com/in/zaryan-masood-a9658113b/"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
