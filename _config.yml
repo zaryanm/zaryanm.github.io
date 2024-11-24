@@ -18,7 +18,7 @@ minimal: false             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "Projects", file: "/blog.md"}
   - {title: "Lab", url: "https://simpl.mech.ubc.ca"}
-  - {file: "ZaryanM_resume.pdf", title: "CV"}
+  - {file: "ZaryanM_Resume.pdf", title: "CV"}
   - {title: "Blog", file: "blog.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
