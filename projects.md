@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: gallery
+title: "Projects Gallery"
 
 ---
 
