@@ -4,8 +4,13 @@
   <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
 </header>
 <style>
-  body {
+  /* This targets the background, the frame, the header, and footer */
+  html, body, .frame, header, footer, .sidebar, .menu {
     background-color: #F0EFEA !important;
+  }
+  
+  /* This forces all text elements to be dark */
+  html, body, p, h1, h2, h3, h4, h5, h6, li, span, div, a {
     color: #141413 !important;
   }
 </style>
