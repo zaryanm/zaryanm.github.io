@@ -4,13 +4,31 @@
   <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
 </header>
 <style>
-  /* This targets the background, the frame, the header, and footer */
-  html, body, .frame, header, footer, .sidebar, .menu {
+  /* 1. Universal Background and Text */
+  :root, html, body, .page, .content {
     background-color: #F0EFEA !important;
+    color: #141413 !important;
+  }
+
+  /* 2. Overpower the Theme's Automatic Dark Mode */
+  @media (prefers-color-scheme: dark) {
+    :root, html, body, header, footer {
+      background-color: #F0EFEA !important;
+      color: #141413 !important;
+    }
+    p, h1, h2, h3, h4, h5, h6, span, div, li {
+      color: #141413 !important;
+    }
+  }
+
+  /* 3. Anthropic-Style Links (Muted grey, dark on hover) */
+  a, .menu a, .sidebar a {
+    color: #525252 !important;
+    text-decoration: none !important;
   }
   
-  /* This forces all text elements to be dark */
-  html, body, p, h1, h2, h3, h4, h5, h6, li, span, div, a {
+  a:hover, .menu a:hover, .sidebar a:hover {
     color: #141413 !important;
+    text-decoration: underline !important;
   }
 </style>
