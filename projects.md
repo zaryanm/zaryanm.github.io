@@ -21,8 +21,8 @@ We uniformly processed a multisport dataset of direct head impacts across men’
 </p>
 
 <div style="display: flex; justify-content: space-between; gap: 20px; margin-top: 30px; margin-bottom: 40px;">
-  <img src="{{ site.baseurl }}/impact-plot-1.png" alt="Head Impact Data Visualization 1" style="width: 48%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="{{ site.baseurl }}/impact-plot-2.png" alt="Head Impact Data Visualization 2" style="width: 48%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="{{ site.baseurl }}/plot1.png" alt="Head Impact Data Visualization 1" style="width: 48%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="{{ site.baseurl }}/plot2.png" alt="Head Impact Data Visualization 2" style="width: 48%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
 
 ---
