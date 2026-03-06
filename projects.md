@@ -14,10 +14,10 @@ We uniformly processed a multisport dataset of direct head impacts across men’
 ### Key Findings
 * **Shared Biomechanics:** While we identified some sport-specific differences, impact features (such as magnitude and frequency) largely transcended sport boundaries, showing similar clusters across American football, rugby, and ice hockey.
 * **Soccer Specifics:** Impacts in women's soccer demonstrated distinct, tight clustering patterns due to consistent heading biomechanics. 
-* **Future Directions:** The data highlighted that soccer may produce similar directional accelerations to American football and rugby, suggesting that head impacts in soccer warrant more extensive research.
+* **Future Directions:** The data highlighted that soccer may produce similar directional accelerations to football and rugby, suggesting that head impacts in soccer warrant more extensive and rigorous study.
 
 <p style="margin-top: 20px; font-size: 1.1em;">
-  <strong>📖 <a href="https://www.nature.com/articles/s41598-025-31145-4" target="_blank" style="color: #141413; text-decoration: underline;">Check out the published paper here!</a></strong>
+  <strong><a href="https://www.nature.com/articles/s41598-025-31145-4" target="_blank" style="color: #0056b3 !important; text-decoration: underline !important;">Check out the published paper here!</a></strong>
 </p>
 
 <div style="display: flex; justify-content: space-between; gap: 20px; margin-top: 30px; margin-bottom: 40px;">
