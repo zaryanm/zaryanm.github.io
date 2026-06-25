@@ -3,32 +3,3 @@
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
   <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time>
 </header>
-<style>
-  /* 1. Universal Background and Text */
-  :root, html, body, .page, .content {
-    background-color: #F0EFEA !important;
-    color: #141413 !important;
-  }
-
-  /* 2. Overpower the Theme's Automatic Dark Mode */
-  @media (prefers-color-scheme: dark) {
-    :root, html, body, header, footer {
-      background-color: #F0EFEA !important;
-      color: #141413 !important;
-    }
-    p, h1, h2, h3, h4, h5, h6, span, div, li {
-      color: #141413 !important;
-    }
-  }
-
-  /* 3. Anthropic-Style Links (Muted grey, dark on hover) */
-  a, .menu a, .sidebar a {
-    color: #525252 !important;
-    text-decoration: none !important;
-  }
-  
-  a:hover, .menu a:hover, .sidebar a:hover {
-    color: #141413 !important;
-    text-decoration: underline !important;
-  }
-</style>

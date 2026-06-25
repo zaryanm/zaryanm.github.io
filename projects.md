@@ -3,26 +3,35 @@ layout: page
 title: Projects
 ---
 
+## Directional Dependence of Multiscale Brain Modeling
+*From the whole brain down to axons*
+
+Using real-world head impacts, we simulated brain strains across multiple scales, from the whole brain down to individual axons, combining convolutional neural network (CNN) and finite element (FE) models to investigate how the plane of head motion influences injury. Check out the animation below!
+
+<video autoplay loop muted playsinline style="display: block; width: 70%; margin: 30px auto; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <source src="{{ site.baseurl }}/multiscale_TBI_animation_v6.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
+
 ## Multisport Comparison of Head Impact Biomechanics
 
-### Overview
-In this project, I contributed to the collection of instrumented mouthguard data from over 50 athletes. Combining this novel data with existing datasets, our primary objective was to determine whether head impact biomechanics can be reliably differentiated between sports using advanced statistical techniques and machine learning.
+The primary objective of this study was to determine whether head impact biomechanics can be reliably differentiated between sports using advanced statistical techniques and machine learning.
 
-### Methodology
-We uniformly processed a multisport dataset of direct head impacts across men’s American football, men’s ice hockey, women’s rugby, and women’s soccer. We statistically compared directional and resultant peak kinematics, alongside impulse durations. To examine clustering in impact magnitude and frequency, we applied unsupervised machine learning models, specifically k-means and t-distributed stochastic neighbor embedding (t-SNE).
+<p><a href="https://www.nature.com/articles/s41598-025-31145-4" target="_blank" style="color: #141413; text-decoration: underline;">Click here to check out the paper</a></p>
 
-### Key Findings
-* **Shared Biomechanics:** While we identified some sport-specific differences, impact features (such as magnitude and frequency) largely transcended sport boundaries, showing similar clusters across American football, rugby, and ice hockey.
-* **Soccer Specifics:** Impacts in women's soccer demonstrated distinct, tight clustering patterns due to consistent heading biomechanics. 
-* **Future Directions:** The data highlighted that soccer may produce similar directional accelerations to football and rugby, suggesting that head impacts in soccer warrant more extensive and rigorous study.
-
-<p style="margin-top: 20px; font-size: 1.1em;">
-  <strong><a href="https://www.nature.com/articles/s41598-025-31145-4" target="_blank" style="color: #0056b3 !important; text-decoration: underline !important;">Check out the published paper here!</a></strong>
-</p>
-
-<div style="display: flex; justify-content: space-between; gap: 20px; margin-top: 30px; margin-bottom: 40px;">
-  <img src="{{ site.baseurl }}/plot1.png" alt="Head Impact Data Visualization 1" style="width: 48%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <img src="{{ site.baseurl }}/plot2.png" alt="Head Impact Data Visualization 2" style="width: 48%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<div style="display: flex; justify-content: center; gap: 20px; margin-top: 30px; margin-bottom: 40px;">
+  <img src="{{ site.baseurl }}/plot1.png" alt="Head Impact Data Visualization 1" style="width: 32%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <img src="{{ site.baseurl }}/plot2.png" alt="Head Impact Data Visualization 2" style="width: 32%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </div>
+
+---
+
+## Can We Find Objective Blood Biomarkers Indicative of Brain Injury?
+
+We are collecting hundreds of blood samples from varsity contact athletes who wear instrumented mouthguards, using proteomic approaches to search for promising biomarkers indicative of brain injury. Because the mouthguards quantify each athlete's head impact exposure, we can pair that biomechanical data with their blood profiles to investigate a potential dose-response relationship between impact biomechanics and biomarker levels. Our collaborators are the first in Canada to use the Argo HT system for advanced biomarker detection.
+
+<p><a href="https://www.centreforbrainhealth.ca/news/wellington-lab-acquires-canadas-first-argo-ht-system-for-advanced-biomarker-detection/" target="_blank" style="color: #141413; text-decoration: underline;">Click here to read more about it</a></p>
 
 ---
